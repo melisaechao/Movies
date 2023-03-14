@@ -85,7 +85,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://raw.githubusercontent.com/melisaechao/Movies/main/myStory.gif?token=GHSAT0AAAAAAB7J2BDM6BBHTK2PMXNAJR6UZAGTIAQ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/melisaechao/Movies/blob/main/myStory.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
