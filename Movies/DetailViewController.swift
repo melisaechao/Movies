@@ -21,6 +21,8 @@ class DetailViewController: UIViewController {
     
     
     var movie: Movie!
+    var poster: Poster!
+    
     
     
     override func viewDidLoad() {
@@ -28,13 +30,16 @@ class DetailViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        Nuke.loadImage(with: movie.movieBackdropImage, into: movieImageFullView)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/" + movie.backdrop_path.absoluteString)!, into: movieImageFullView)
         
-        movieTitle.text = movie.movieTitle
-        movieFullDescription.text = movie.movieDescription
-        voteAverageLabel.text = movie.voteAverage
-        votesLabel.text = movie.voteCount
-        popularityLabel.text = movie.popularity
+        //Nuke.loadImage(with: movie.backdrop_path, into: movieImageFullView)
+        
+        
+        movieTitle.text = movie.original_title
+        movieFullDescription.text = movie.overview
+        voteAverageLabel.text = String(format: "%.2f", movie.vote_average)
+        votesLabel.text = String(format: "%d", movie.vote_count)
+        popularityLabel.text = String(format: "%.3f", movie.popularity)
         
         
         
@@ -47,5 +52,7 @@ class DetailViewController: UIViewController {
          // Pass the selected object to the new view controller.
          }
          */
+        
     }
+   
 }
