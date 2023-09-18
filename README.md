@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://raw.githubusercontent.com/melisaechao/Movies/8403720c42c1472da52be81ea85638ab2b206871/myStory2.gif?token=A2PV7AQNSVEOTVKB7MDLMWDEB7ZJK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://raw.githubusercontent.com/melisaechao/Movies/8403720c42c1472da52be81ea85638ab2b206871/myStory2.gif?token=A2PV7AQNTCOQG6GWF3MMGV3FA7IEY' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
@@ -40,7 +40,7 @@ I didn't know how to segue the PosterVC to the deatailsVC.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Melissa Saechao]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -98,7 +98,7 @@ I am still struggling with stack views and constraints. I just experiemented wit
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Melissa Saechao]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
